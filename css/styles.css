@@ -1,29 +1,67 @@
 * {
     background-color: #e9e3d8
 }
+
 header.presentation-section {
     text-align: center;
     padding: 20px;
-
 }
+
 #juanA-photo {
     width: 100px;
     height: 175px;
     margin: auto;
 }
+
 #linkedin-logo {
     width: 80px;
     height: 80px;
     margin: auto;
     vertical-align: middle;
 }
+
 #github-logo {
     width: 70px;
     height: 22px;
     margin: auto;
     vertical-align: middle;
 }
+
 .section-title {
     text-align: center;
     margin-bottom: 20px;
+}
+
+.contact-section {
+    max-width: 720px;
+    margin: 0 auto 40px auto;
+    padding: 0 20px;
+}
+
+.contact-form .form-field {
+    margin-bottom: 16px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #000;
+    background-color: #e9e3d8;
+    font: inherit;
+    box-sizing: border-box;
+}
+
+.button-submit {
+    padding: 8px 16px;
+    border: 1px solid #000;
+    background-color: #e9e3d8;
+    cursor: pointer;
+    font: inherit;
 }
