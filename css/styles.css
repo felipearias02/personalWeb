@@ -1,67 +1,122 @@
+
 * {
-    background-color: #e9e3d8
+  box-sizing: border-box;
+  background-color: #e9e3d8;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
 }
 
+
 header.presentation-section {
-    text-align: center;
-    padding: 20px;
+  width: 100%;
+  background-color: #ccc;
+  text-align: center;
+  padding: 20px 0;
+  clear: both;
 }
 
 #juanA-photo {
-    width: 100px;
-    height: 175px;
-    margin: auto;
+  width: 100px;
+  height: 175px;
+  display: block;
+  margin: 10px auto;
 }
 
-#linkedin-logo {
-    width: 80px;
-    height: 80px;
-    margin: auto;
-    vertical-align: middle;
+main {
+  width: 100%;
+  overflow: hidden;
+  padding: 10px 0;
 }
 
-#github-logo {
-    width: 70px;
-    height: 22px;
-    margin: auto;
-    vertical-align: middle;
+.sidebar {
+  float: left;
+  width: 10%;
+  background-color: #bbb;
+  min-height: 400px;
+  padding: 15px;
+}
+
+.sidebar #menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar #menu ul li {
+  margin-bottom: 12px;
+}
+
+.sidebar #menu ul li a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.sidebar #menu ul li a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+.content {
+  float: left;
+  width: 90%;
+  background-color: #ddd;
+  min-height: 400px;
+  padding: 15px;
 }
 
 .section-title {
-    text-align: center;
-    margin-bottom: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.job-responsabilities,
+.project-responsabilities {
+  margin-left: 20px;
+  margin-bottom: 20px;
 }
 
 .contact-section {
-    max-width: 720px;
-    margin: 0 auto 40px auto;
-    padding: 0 20px;
+  max-width: 720px;
+  margin: 0 auto 40px auto;
+  padding: 0 20px;
 }
 
 .contact-form .form-field {
-    margin-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 .contact-form label {
-    display: block;
-    margin-bottom: 6px;
-    font-weight: bold;
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
 }
 
 .contact-form input,
 .contact-form textarea {
-    width: 100%;
-    padding: 8px;
-    border: 1px solid #000;
-    background-color: #e9e3d8;
-    font: inherit;
-    box-sizing: border-box;
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #000;
+  background-color: #e9e3d8;
+  font: inherit;
+  box-sizing: border-box;
 }
 
 .button-submit {
-    padding: 8px 16px;
-    border: 1px solid #000;
-    background-color: #e9e3d8;
-    cursor: pointer;
-    font: inherit;
+  padding: 8px 16px;
+  border: 1px solid #000;
+  background-color: #e9e3d8;
+  cursor: pointer;
+  font: inherit;
+}
+
+footer {
+  clear: both;
+  width: 100%;
+  background-color: #aaa;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 20px;
 }

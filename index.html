@@ -1,99 +1,97 @@
-<!--personalWeb-->
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Juan Arias A.</title>
-    <link rel="stylesheet" href="./css/styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Juan Arias A.</title>
+  <link rel="stylesheet" href="./css/styles.css" />
 </head>
 <body>
-    <header class="presentation-section">
-        <h1>Juan Felipe Arias Aranguren</h1>
-        <img id="juanA-photo" src="./img/juanArias.jpeg" alt="Juan Arias Aranguren">
-        <p>Bogotá D.C. Colombia juanfelipeariasaranguren@gmail.com</p>
-        <nav class="profile-navigation">
-            <a href="https://www.linkedin.com/in/juan-felipe-a-554498272/" target="_blank">
-                <img id="linkedin-logo" src="./img/linkedin_logo.png" alt="Linkedin">
-            </a>
-            <a href="https://github.com/felipearias02" target="_blank">
-                <img id="github-logo" src="./img/GitHub_logo.png" alt="GitHub">
-            </a>
-        </nav>
-    </header>
-    <main>
-        <section class="education-section">
-            <h2 class="section-title">Educación</h2>
-            <h3>Universidad EAN</h3>
-            <p>Ingeniería de Sistemas (7°semestre), Bogotá D.C., Colombia</p>
-            <p>2022 - Actualidad</p>
-            <h3>SENA</h3>
-            <p>Técnico en Contabilización de Operaciones Comerciales y Financieras, Bogotá D.C., Colombia</p>
-        </section>
-        <section class="experience-section">
-            <h2 class="section-title">Experiencia</h2>
-            <h3 class="job-title">Granadina de Vigilancia Ltda.</h3>
-            <h4>Apoyo Tecnológico <span style="font-weight: normal;">Marzo, 2023 - Actualidad</span></h4>
-            <ul class="job-responsabilities">
-                <li>Brindo soporte básico a empleados en el uso de programas de oficina, 
-                    correo, navegación y herramientas corporativas.
-                </li>
-                <li>Colaboro con el área de TI en la revisión de licencias (Google WorkSpace)
-                    y configuraciones básicas de los equipos.
-                </li>
-                <li>Remito al equipo de TI los incidentes que requieren soporte avanzado.</li>
-            </ul>
-        </section>
-        <section class="leadership-section">
-            <h2 class="section-title">Liderazgo y Actividades</h2>
-            <h3 class="class-title">Proyecto UNIETAS - Universidad EAN</h3>
-            <p>Líder de proyecto académico para el desarrollo de un sistema de gestión de pedidos
-                en línea para las cafeterías universitarias.
-            </p>
-            <ul class="project-responsabilities">
-                <li>Diseño, construcción e implementación de la base de datos relacional (MySQL), desarrollo de triggers
-                    y procedimientos almacenados.
-                </li>
-                <li>Coordinación del equipo de trabajo y definición de requerimientos funcionales y no funcionales</li>
-            </ul>
-            <h3>Semillero de Investigación TMT - Universidad EAN</h3>
-            <p>Participación activa del análisis de flujo vehicular en la Carrera 11 con calle 79, Bogotá</p>
-            <ul>
-                <li>Recolección, organización y análisis de datos para investigación académica</li>
-            </ul>
-        </section>
-        <section class="skills-section">
-            <h2 class="section-title">Habilidades e Intereses</h2>
-            <p>
-                <strong class="skills-label">Técnicas:</strong> Python básico, MySQL/MariaDB, PostgreSQL, MongoDB, AWS Fundamentals,
-                Git/GitHub, Linux intermedio, medotologías agiles (Scrum).
-            </p>
-            <p>
-                <strong class="skills-label">Idiomas:</strong> Español (nativo), Inglés (Nivel A2)
-            </p>
-            <p>
-                <strong class="skills-label">Intereses:</strong> Desarrollo Backend, bases de datos, seguridad informática,
-                telecomunicaciones, análisis de datos, cultura DevOps, automatización de procesos.
-            </p>
-        </section>
-        <section class="contact-section">
-            <h2 class="section-title">Contacto</h2>
-            <form class="contact-form">
-                <div class="form-field">
-                    <label for="nombre">Nombre</label>
-                    <input id="nombre" name="nombre" type="text" placeholder="Tu nombre">
-                </div>
-                <div class="form-field">
-                    <label for="email">Correo electrónico</label>
-                    <input id="email" name="email" type="email" placeholder="tucorreo@ejemplo.com">
-                </div>
-                <div class="form-field">
-                    <label for="mensaje">Mensaje</label>
-                    <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje"></textarea>
-                </div>
-                <button class="button-submit" type="button">Enviar</button>
-            </form>
-        </section>
-    </main>
+  <header class="presentation-section">
+    <h1>Juan Felipe Arias Aranguren</h1>
+    <img id="juanA-photo" src="./img/juanArias.jpeg" alt="Juan Arias Aranguren" />
+    <p>Bogotá D.C. Colombia juanfelipeariasaranguren@gmail.com</p>
+  </header>
+
+  <main>
+    <div class="sidebar">
+      <nav id="menu">
+        <ul>
+          <li><a href="#education-section">Educación</a></li>
+          <li><a href="#experience-section">Experiencia</a></li>
+          <li><a href="#leadership-section">Liderazgo y Actividades</a></li>
+          <li><a href="#skills-section">Habilidades e Intereses</a></li>
+          <li><a href="#contact-section">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="content">
+      <section class="education-section" id="education-section">
+        <h2 class="section-title">Educación</h2>
+        <h3>Universidad EAN</h3>
+        <p>Ingeniería de Sistemas (7°semestre), Bogotá D.C., Colombia</p>
+        <p>2022 - Actualidad</p>
+        <h3>SENA</h3>
+        <p>Técnico en Contabilización de Operaciones Comerciales y Financieras, Bogotá D.C., Colombia</p>
+      </section>
+
+      <section class="experience-section" id="experience-section">
+        <h2 class="section-title">Experiencia</h2>
+        <h3 class="job-title">Granadina de Vigilancia Ltda.</h3>
+        <h4>Apoyo Tecnológico <span style="font-weight: normal;">Marzo, 2023 - Actualidad</span></h4>
+        <ul class="job-responsabilities">
+          <li>Brindo soporte básico a empleados en el uso de programas de oficina, correo, navegación y herramientas corporativas.</li>
+          <li>Colaboro con el área de TI en la revisión de licencias (Google WorkSpace) y configuraciones básicas de los equipos.</li>
+          <li>Remito al equipo de TI los incidentes que requieren soporte avanzado.</li>
+        </ul>
+      </section>
+
+      <section class="leadership-section" id="leadership-section">
+        <h2 class="section-title">Liderazgo y Actividades</h2>
+        <h3 class="class-title">Proyecto UNIETAS - Universidad EAN</h3>
+        <p>Líder de proyecto académico para el desarrollo de un sistema de gestión de pedidos en línea para las cafeterías universitarias.</p>
+        <ul class="project-responsabilities">
+          <li>Diseño, construcción e implementación de la base de datos relacional (MySQL), desarrollo de triggers y procedimientos almacenados.</li>
+          <li>Coordinación del equipo de trabajo y definición de requerimientos funcionales y no funcionales</li>
+        </ul>
+        <h3>Semillero de Investigación TMT - Universidad EAN</h3>
+        <p>Participación activa del análisis de flujo vehicular en la Carrera 11 con calle 79, Bogotá</p>
+        <ul>
+          <li>Recolección, organización y análisis de datos para investigación académica</li>
+        </ul>
+      </section>
+
+      <section class="skills-section" id="skills-section">
+        <h2 class="section-title">Habilidades e Intereses</h2>
+        <p><strong class="skills-label">Técnicas:</strong> Python básico, MySQL/MariaDB, PostgreSQL, MongoDB, AWS Fundamentals, Git/GitHub, Linux intermedio, metodologías ágiles (Scrum).</p>
+        <p><strong class="skills-label">Idiomas:</strong> Español (nativo), Inglés (Nivel A2)</p>
+        <p><strong class="skills-label">Intereses:</strong> Desarrollo Backend, bases de datos, seguridad informática, telecomunicaciones, análisis de datos, cultura DevOps, automatización de procesos.</p>
+      </section>
+
+      <section class="contact-section" id="contact-section">
+        <h2 class="section-title">Contacto</h2>
+        <form class="contact-form">
+          <div class="form-field">
+            <label for="nombre">Nombre</label>
+            <input id="nombre" name="nombre" type="text" placeholder="Tu nombre" />
+          </div>
+          <div class="form-field">
+            <label for="email">Correo electrónico</label>
+            <input id="email" name="email" type="email" placeholder="tucorreo@ejemplo.com" />
+          </div>
+          <div class="form-field">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje"></textarea>
+          </div>
+          <button class="button-submit" type="button">Enviar</button>
+        </form>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <p>2025 Juan Felipe Arias Aranguren</p>
+  </footer>
 </body>
 </html>
