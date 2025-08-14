@@ -1,7 +1,5 @@
-
 * {
   box-sizing: border-box;
-  background-color: #e9e3d8;
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
@@ -10,7 +8,7 @@
 
 header.presentation-section {
   width: 100%;
-  background-color: #ccc;
+  background-color: #e9e3d8;
   text-align: center;
   padding: 20px 0;
   clear: both;
@@ -27,13 +25,16 @@ main {
   width: 100%;
   overflow: hidden;
   padding: 10px 0;
+  font-size: 0;
 }
 
 .sidebar {
-  float: left;
+  display: inline-block;
+  vertical-align: top;
   width: 10%;
-  background-color: #bbb;
-  min-height: 400px;
+  font-size: 16px;
+  background-color: #e9e3d8;
+  min-height: 100%;
   padding: 15px;
 }
 
@@ -60,10 +61,12 @@ main {
 
 
 .content {
-  float: left;
+  display: inline-block;
+  vertical-align: top;
   width: 90%;
-  background-color: #ddd;
-  min-height: 400px;
+  font-size: 16px;
+  background-color: #e9e3d8;
+  min-height: 100%;
   padding: 15px;
 }
 
@@ -78,44 +81,49 @@ main {
   margin-bottom: 20px;
 }
 
-.contact-section {
+footer .contact-form {
   max-width: 720px;
-  margin: 0 auto 40px auto;
+  margin: 0 auto;
   padding: 0 20px;
 }
 
-.contact-form .form-field {
+footer .contact-form .form-field {
   margin-bottom: 16px;
 }
 
-.contact-form label {
+footer .contact-form label {
   display: block;
   margin-bottom: 6px;
   font-weight: bold;
 }
 
-.contact-form input,
-.contact-form textarea {
+footer .contact-form input,
+footer .contact-form textarea {
   width: 100%;
   padding: 8px;
-  border: 1px solid #000;
-  background-color: #e9e3d8;
+  background-color: #f5f5f5;
   font: inherit;
   box-sizing: border-box;
+  border: none;
+  box-shadow: none;
+  border-radius: 6px;
+  margin-bottom: 12px;
 }
 
-.button-submit {
+footer .button-submit {
   padding: 8px 16px;
-  border: 1px solid #000;
-  background-color: #e9e3d8;
+  background-color: #f5f5f5;
   cursor: pointer;
   font: inherit;
+  border: none;
+  box-shadow: none;
+  border-radius: 6px;
 }
 
 footer {
   clear: both;
   width: 100%;
-  background-color: #aaa;
+  background-color: #e9e3d8;
   text-align: center;
   padding: 15px 0;
   margin-top: 20px;
